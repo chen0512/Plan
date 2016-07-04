@@ -1,0 +1,28 @@
+position：position用来设定元素的定位类型，有absolute（绝对定位）、relative（相对定位）、static（静态定位，默认值）、fixed（固定定位）四种。
+height: 设置元素的高度。可能的值：auto	默认。浏览器会计算出实际的高度。length	使用 px、cm 等单位定义高度。%	基于包含它的块级对象的百分比高度。inherit	规定应该从父元素继承 height 属性的值。
+background:简写属性在一个声明中设置所有的背景属性。可能的值：background-color	规定要使用的背景颜色。	background-position	规定背景图像的位置。	background-size	规定背景图片的尺寸。	background-repeat	规定如何重复背景图像。	background-origin	规定背景图片的定位区域。	background-clip	规定背景的绘制区域。	background-attachment	规定背景图像是否固定或者随着页面的其余部分滚动。background-image	规定要使用的背景图像。	inherit	规定应该从父元素继承 background 属性的设置。
+top：规定元素的顶部边缘。该属性定义了一个定位元素的上外边距边界与其包含块上边界之间的偏移。可能的值：auto	默认值。通过浏览器计算上边缘的位margin-left 属性设置元素的左外边距。置。%	设置以包含元素的百分比计的上边位置。可使用负值。inherit	规定应该从父元素继承 top 属性的值。
+left：规定元素的左边缘。该属性定义了定位元素左外边距边界与其包含块左边界之间的偏移。可能的值：auto	默认值。通过浏览器计算左边缘的位置。%	设置以包含元素的百分比计的左边位置。可使用负值。length	使用 px、cm 等单位设置元素的左边位置。可使用负值。inherit	规定应该从父元素继承 left 属性的值。
+ width：设置元素的宽度。可能的值：auto	默认值。浏览器可计算出实际的宽度。length	使用 px、cm 等单位定义宽度。%	定义基于包含块（父元素）宽度的百分比宽度。inherit	规定应该从父元素继承 width 属性的值。
+ content：content 属性与 :before 及 :after 伪元素配合使用，来插入生成内容，可能的值：none	 normal 
+content specifications	 inherit	规定应该从父元素继承 ontent属性的值。
+display：规定元素应该生成的框的类型。可能的值：none	此元素不会被显示。block	此元素将显示为块级元素，此元素前后会带有换行符。inline	默认。此元素会被显示为内联元素，元素前后没有换行符。inline-block	行内块元素。（CSS2.1 新增的值）list-item	此元素会作为列表显示。run-in	此元素会根据上下文作为块级元素或内联元素显示。compact	CSS 中有值 compact，不过由于缺乏广泛支持，已经从 CSS2.1 中删除。marker	CSS 中有值 marker，不过由于缺乏广泛支持，已经从 CSS2.1 中删除。table	此元素会作为块级表格来显示（类似 <table>），表格前后带有换行符。inline-table	此元素会作为内联表格来显示（类似 <table>），表格前后没有换行符。table-row-group	此元素会作为一个或多个行的分组来显示（类似 <tbody>）。table-header-group	此元素会作为一个或多个行的分组来显示（类似 <thead>）。table-footer-group	此元素会作为一个或多个行的分组来显示（类似 <tfoot>）。table-row	此元素会作为一个表格行显示（类似 <tr>）。table-column-group	此元素会作为一个或多个列的分组来显示（类似 <colgroup>）。table-column	此元素会作为一个单元格列显示（类似 <col>）table-cell	此元素会作为一个表格单元格显示（类似 <td> 和 <th>）table-caption	此元素会作为一个表格标题显示（类似 <caption>）inherit	规定应该从父元素继承 display 属性的值。
+border：在一个声明设置所有的边框属性，可能的值：border-width	规定边框的宽度。参阅：border-width 中可能的值。border-style	规定边框的样式。参阅：border-style 中可能的值。border-color	规定边框的颜色。参阅：border-color 中可能的值。inherit	规定应该从父元素继承 border 属性的设置。
+float：定义元素在哪个方向浮动。以往这个属性总应用于图像，使文本围绕在图像周围，不过在 CSS 中，任何元素都可以浮动。浮动元素会生成一个块级框，而不论它本身是何种元素。如果浮动非替换元素，则要指定一个明确的宽度；否则，它们会尽可能地窄。可能的值：left	元素向左浮动。right	元素向右浮动。none	默认值。元素不浮动，并会显示在其在文本中出现的位置。inherit	规定应该从父元素继承 float 属性的值。
+line-height ：设置行间的距离（行高）。可能的值：normal	默认。设置合理的行间距。number	设置数字，此数字会与当前的字体尺寸相乘来设置行间距。length	设置固定的行间距。%	基于当前字体尺寸的百分比行间距。inherit	规定应该从父元素继承 line-height 属性的值。
+border-radius ：是一个简写属性，用于设置四个 border-*-radius 属性。可能的值:length	定义圆角的形状。%	以百分比定义圆角的形状。
+padding 简写属性在一个声明中设置所有内边距属性。可能的值：auto	浏览器计算内边距。length	规定以具体单位计的内边距值，比如像素、厘米等。默认值是 0px。%	规定基于父元素的宽度的百分比的内边距。inherit	规定应该从父元素继承内边距。
+transition 属性是一个简写属性，用于设置四个过渡属性：transition-property	规定设置过渡效果的 CSS 属性的名称。transition-duration	规定完成过渡效果需要多少秒或毫秒。transition-timing-function	规定速度效果的速度曲线。transition-delay	定义过渡效果何时开始。
+bottom：规定元素的底部边缘。该属性定义了定位元素下外边距边界与其包含块下边界之间的偏移。可能的值：auto	默认值。通过浏览器计算底部的位置。%	设置以包含元素的百分比计的底边位置。可使用负值。length	使用 px、cm 等单位设置元素的底边位置。可使用负值。inherit	规定应该从父元素继承 bottom 属性的值。
+margin-left：设置元素的左外边距。可能的值：auto	浏览器设置的左外边距。length	定义固定的左外边距。默认值是0。%	定义基于父对象总高度的百分比左外边距。inherit	规定应该从父元素继承左外边距。
+margin-top 属性设置元素的上外边距。可能的值：auto	浏览器设置的上外边距。length	定义固定的上外边距。默认值是 0。%	定义基于父对象总高度的百分比上外边距。inherit	规定应该从父元素继承上外边距。
+font 简写属性在一个声明中设置所有字体属性。可能的值：font-style	规定字体样式。参阅：font-style 中可能的值。font-variant	规定字体异体。参阅：font-variant 中可能的值。font-weight	规定字体粗细。参阅：font-weight 中可能的值。font-size/line-height	规定字体尺寸和行高。参阅：font-size 和 line-height 中可能的值。font-family	规定字体系列。参阅：font-family 中可能的值。caption	定义被标题控件（比如按钮、下拉列表等）使用的字体。icon	定义被图标标记使用的字体。menu	定义被下拉列表使用的字体。message-box	定义被对话框使用的字体。small-caption	caption 字体的小型版本。status-bar	定义被窗口状态栏使用的字体。
+color：规定文本的颜色。可能的值：color_name	规定颜色值为颜色名称的颜色（比如 red）。hex_number	规定颜色值为十六进制值的颜色（比如 #ff0000）。rgb_number	规定颜色值为 rgb 代码的颜色（比如 rgb(255,0,0)）。inherit	规定应该从父元素继承颜色。
+box-sizing：允许您以特定的方式定义匹配某个区域的特定元素。可能的值：content-box	这是由 CSS2.1 规定的宽度高度行为。宽度和高度分别应用到元素的内容框。在宽度和高度之外绘制元素的内边距和边框。border-box	为元素设定的宽度和高度决定了元素的边框盒。就是说，为元素指定的任何内边距和边框都将在已设定的宽度和高度内进行绘制。通过从已设定的宽度和高度分别减去边框和内边距才能得到内容的宽度和高度。inherit	规定应从父元素继承 box-sizing 属性的值。
+padding-left：设置元素左内边距（空白）可能的值：length	规定以具体单位计的固定的左内边距值，比如像素、厘米等。默认值是 0px。%	定义基于父元素宽度的百分比左内边距。此值不会如预期地那样工作于所有的浏览器中。inherit	规定应该从父元素继承左内边距。
+overflow：规定当内容溢出元素框时发生的事情。可能的值：visible	默认值。内容不会被修剪，会呈现在元素框之外。hidden	内容会被修剪，并且其余内容是不可见的。scroll	内容会被修剪，但是浏览器会显示滚动条以便查看其余的内容。auto	如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容。inherit	规定应该从父元素继承 overflow 属性的值。
+cursor：规定要显示的光标的类型（形状）。可能的值：url	需使用的自定义光标的 URL。注释：请在此列表的末端始终定义一种普通的光标，以防没有由 URL 定义的可用光标。default	默认光标（通常是一个箭头）auto	默认。浏览器设置的光标。crosshair	光标呈现为十字线。pointer	光标呈现为指示链接的指针（一只手）move	此光标指示某对象可被移动。e-resize	此光标指示矩形框的边缘可被向右（东）移动。ne-resize	此光标指示矩形框的边缘可被向上及向右移动（北/东）。nw-resize	此光标指示矩形框的边缘可被向上及向左移动（北/西）。n-resize	此光标指示矩形框的边缘可被向上（北）移动。se-resize	此光标指示矩形框的边缘可被向下及向右移动（南/东）。sw-resize	此光标指示矩形框的边缘可被向下及向左移动（南/西）。s-resize	此光标指示矩形框的边缘可被向下移动（南）。w-resize	此光标指示矩形框的边缘可被向左移动（西）。text	此光标指示文本。wait	此光标指示程序正忙（通常是一只表或沙漏）。help	此光标指示可用的帮助（通常是一个问号或一个气球）。
+opacity：设置元素的不透明级别。可能的值：value	规定不透明度。从 0.0 （完全透明）到 1.0（完全不透明）。inherit	应该从父元素继承 opacity 属性的值。
+margin-bottom：设置元素的下外边距。可能的值:auto	浏览器计算下外边距。length	规定以具体单位计的下外边距值，比如像素、厘米等。默认值是 0px。%	规定基于父元素的宽度的百分比的下外边距。inherit	规定应该从父元素继承下外边距。
+z-index:设置元素的堆叠顺序。拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面。可能的值：auto	默认。堆叠顺序与父元素相等。number	设置元素的堆叠顺序。inherit	规定应该从父元素继承 z-index 属性的值。
+box-shadow：向框添加一个或多个阴影。可能的值：h-shadow	必需。水平阴影的位置。允许负值。	v-shadow	必需。垂直阴影的位置。允许负值。blur	可选。模糊距离。	spread	可选。阴影的尺寸。	color	可选。阴影的颜色。请参阅 CSS 颜色值。	inset	可选。将外部阴影 (outset) 改为内部阴影。
