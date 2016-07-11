@@ -1,0 +1,60 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  padding: 20px;
+}
+
+h2{
+  font-weight: normal;
+  font-size:12px;
+}
+
+.container {
+  background: #eee;
+  margin: 0 auto;
+  overflow: auto;
+  border: 1px solid #999;
+  padding: 20px;
+  }
+ .left, .middle, .right {
+  background: #fff;
+  border: 1px solid #999;
+  padding: 20px;
+}
+
+.left {
+  float: left;
+  width: 160px;
+}
+.left h2 {
+  margin-top: 0;  
+}
+
+.middle {
+  margin: 0 140px 0 220px;
+}
+.middle h2 {
+  margin-top: 0;  
+}
+.right {
+  float: right;
+  width: 80px;
+  padding-bottom: 0;
+}
+.logo,.right img{
+  height: 80px;
+  width: 80px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.logo {
+  
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.left .logo {
+  float: left;
+}

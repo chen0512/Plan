@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding:0;
+}
+.container {
+	background: #fff;
+	border: 1px solid #999;
+	padding: 20px;
+	margin: 0 auto;
+}
+.left {
+	background: #ff44aa;
+	float: left;
+    width: 200px;
+    border: 1px solid #999;
+    padding: 10px;
+    height: 200px;
+    margin: 10px;
+}
+.left1 {
+	background: #ff3333;
+	float: left;
+	width: 250px;
+	border: 1px solid #999;
+	height: 200px;
+}
+.right {
+	background: #00dd00;
+	border: 1px solid #999;
+	margin: 0 10px 0 524px;
+	padding: 10px;
+	height: 200px;
+}
